@@ -1,0 +1,330 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(img/notebook.png);
+	background-position: top left;
+	background-size: auto;
+
+
+
+}
+.container{
+	background-image: url(img/book1.jpg);
+	background-position: top;
+	width: 	600px;
+	height: 635px;	
+	margin: 10px auto;
+ 	padding: 4px;
+ 	position: relative;
+	box-shadow: 0 20px 50px rgba(0,0,0,.5);
+	border: 0 solid rgba(0,0,0,.5);
+}
+.login{
+	background-image: url(img/book2.jpg);
+	width: 	400px;
+	height: 300px;
+	margin: auto;
+	border : 1px solid black;
+	background-color: grey;
+	padding: 2px;
+	position: relative;
+	top: 90px;
+	box-shadow: 0 20px 50px rgba(0,0,0,.9);
+	border: 0 solid rgba(0,0,0,.9);
+}
+h1{
+	text-align: center;
+	color: #cb9476;
+	background-color: #5444;
+	position: relative;
+	top: 50px;
+	padding: 5px;
+}
+div.home a img{
+	position: absolute;
+	top: -90px;
+	left: 560px;
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	border: none;
+	transition: 0.6s;
+}
+div.home a img:hover{
+	border-radius: 100%;
+	background:#00cc00;
+	opacity: .8;
+}
+
+.masuk{
+	position: absolute;
+	top: 60px;
+	left: 29px;
+	color: white;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;	
+}
+a{ 	color : white;
+	text-decoration: none;
+	border: 1px solid #54444e;
+	position: absolute;
+	transition: 0.7s;
+	background-color: #5444;
+
+	
+}
+a.a{ 
+	padding: 10px 100px;
+	top: 120px;
+	left: 80px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+a.b{
+	padding: 10px 92px;
+	top: 170px;
+	left: 80px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+a.b:hover,a.a:hover{
+			color : black;
+			background-color: #cb9476;
+			opacity: 0.8;
+}
+
+label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+li{
+	list-style-type: none;
+}
+::placeholder{
+	color: #a4a5a7;
+	font-size: 15px;
+}
+input{
+	width: 100%;
+	margin-bottom: 20px
+}
+input[type = text], input[type = password]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+}
+button{
+	border: none;
+	outline: none;
+	width: 300px;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #54444e;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.5s;
+	font-weight: bold;
+	letter-spacing: 1px;
+	position: relative;
+	left: 55px;
+}
+button:hover{
+	background:#00cc00;
+	color: #262626;
+}
+a.ganti{
+	font-size: 15px;
+	border: none;
+	top: 285px;
+	transition: 0.5s;
+}
+a.ganti:hover{
+	color : #cb9476;
+}
+
+#change{
+	width: 400px;
+	height: 370px;
+	top: 70px;
+}
+#ganti{
+	top: 355px;
+}
+button.ganti{
+	top: 20px;
+}
+div.fixed{
+	position: fixed;
+	right: 0;
+	left: 0;
+	padding: 10px;
+	background-color:#54444e; 
+	font-size: 20px;
+	z-index: 9999;
+}
+a.order{
+	position: relative;
+	left: 15px;
+	border: none;
+	background-color: transparent;
+	transition: .4s;	
+}
+a.order:hover{
+	color : #cb9476;
+}
+img.order1{
+	position: fixed;
+	right: 0;
+	border: none;
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+	top: 2px;
+	transition: 0.6s;
+}
+.er{
+	width: 40px;
+	height: 40px;
+}
+img.order1:hover{
+	border-radius: 100%;
+	background:#00cc00;
+	opacity: .8;
+}
+a.logout{
+	position: absolute;
+	right: 50px;
+	font-size: 20px;
+}
+a.logout:hover{
+	color : #cb9476;
+}
+.produk{
+	position: absolute;
+	top: 50px;
+	left: 19%;
+	right: 13%;
+	margin: auto;
+	background-color: transparent;
+
+}
+ div.produk#produk {
+	position: absolute;
+	left:25%;
+	right:25%;
+}
+table{
+	border-collapse: collapse;
+}
+th{
+	border-bottom: 1px solid black;
+	background-color:grey;
+	color: white; 
+}
+td{
+	border-bottom: 1px solid black;
+	height: 50px;
+	padding: 15px;
+	text-align: center;
+}
+tr{	
+	transition: 0.4s;
+}
+tr.tr:hover{
+	background-color: #5444;
+}
+.edit,.hapus,.add{
+	background-color: transparent;
+	border: none;
+	position: static;
+	color: blue;
+	transition: .3s;
+}
+img.ord{
+	width: 100%;
+	height: 100%;
+}
+.button{
+	width: 50px;
+	border-bottom: none;
+	font-size: 15px;
+	padding: 0;
+	height: 30px;
+}
+input.button{
+	border-bottom: 1px solid black;
+	width: 80px;
+	color:black;
+}
+.buku{
+	padding: 0;
+	margin: auto;
+	width: 30%;
+	height: 30%;
+	float: left;
+}
+div.buku img{
+	width: 82%;
+	position: relative;
+	left: 23px;
+}
+p{	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+.pesanan{
+	position: absolute;
+	right: 20px;
+	top: 60px;
+	width: 15%;
+	height: 20%;
+}
+.pesan{
+	width: 50%;
+}
+.lab{
+	color: black;
+}
+input.butt{
+	border-radius: 7px;
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+input.cari{
+	border: 1px solid black;
+	width: 60%;
+	height: 25px;
+	background-color: white;
+	padding: 2;
+	margin-left: 5px;
+	color: black;
+}
+button.cari{
+	width: 75px;
+	height: 30px;
+	position: static;
+	left: 10px;
+}
+div.cari{
+	position: absolute;
+	left: 10px;
+	top: 100px;
+}
+.edit:hover,.hapus:hover,.add:hover{
+	color : red;
+}
+img.img{
+	width: 30px;
+	height: 300px;
+}
